@@ -303,12 +303,17 @@ body {
     width: 35px;
     margin: 15px;
 }
+
+.phone a,
+.email a,{
+    color:#fff;
+}
 @media screen and (max-width: 768px) {
     .contact {
         margin: 1em;
         margin-top: 12em;
         padding: 3em;
-        background-color: rgb(241, 197, 197);
+      
         text-align: left;
     }
 }
@@ -316,8 +321,9 @@ body {
     .contact {
         margin: 1em;
         margin-top: 10em;
+        margin-bottom: 10em;
         padding: 1em;
-        background-color: rgb(241, 197, 197);
+        
         text-align: left;
     }
 }
