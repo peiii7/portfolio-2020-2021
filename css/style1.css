@@ -1,0 +1,366 @@
+html {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: fantasy;
+}
+div,
+span {
+    font-family: 'Taipei Sans TC Beta';
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #fafaed !important;
+    height: 5em;
+    width: 100%;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.homename a {
+    font-weight: bold;
+    border: 3px solid #1820ef;
+    border-radius: 50%;
+    padding: 0 15px;
+    margin-left: 2em;
+    font-size: 36px;
+    text-decoration: none;
+    color: #1820ef !important;
+    font-family: 'Cooper Black';
+}
+.homename a:hover {
+    color: #000000 !important;
+    border: 3px solid #000000 !important;
+    transition-duration: 1s;
+}
+
+.nav-link {
+    background-color: #fafaed !important;
+    color: #1820ef !important;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px !important;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+.nav-link:hover {
+    color: #000000 !important;
+}
+.menu {
+    width: 25px;
+    height: 25px;
+}
+
+.top {
+    background-image: url('../icon_image/bg1.png');
+    background-size: cover;
+    display: flex;
+    padding: 15% 5em;
+    justify-content: center;
+    align-items: center;
+}
+.top img {
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+.top_left {
+    text-align: center;
+}
+.top_left img {
+    width: 250px;
+}
+.name {
+    font-size: 32px;
+    text-align: center;
+    margin: 1em 4em;
+    padding: 15px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    font-family: 'Taipei Sans TC Beta';
+    font-weight: bold;
+    background-color: #1820ef;
+    color: #ffc024;
+}
+
+.introduction {
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 15px;
+    border: 5px solid #000;
+    border-radius: 15px;
+}
+.introduction h1,
+.introduction h3 {
+    color: #1820ef;
+}
+.skillsection {
+    background-color: rgb(255, 255, 255);
+    padding: 4em 0;
+    width: 100%;
+}
+.skillsection {
+    background-image: url('../icon_image/bg2.png');
+    background-size: cover;
+}
+.skillsection p {
+    font-family: 'Taipei Sans TC Beta';
+    font-weight: bold;
+}
+.skillmain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 20%;
+}
+.skillicon img {
+    width: 300px;
+    margin: 1.5em;
+}
+.des {
+    text-align: left;
+}
+
+.plan {
+    padding: 3em 10%;
+    background-color: #fafaed;
+    justify-content: center;
+    align-items: center;
+}
+.planbottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planleft,
+.planright {
+    width: 50%;
+    margin: 1.5em;
+    padding: 1.5em;
+    border-radius: 15px;
+    border: 3px solid #1820ef;
+    border-left: 10px solid #1820ef;
+    border-bottom: 10px solid #1820ef;
+    font-size: 20px;
+    background-color: #fafaed;
+}
+.planleft h3,
+.planright h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 2em;
+}
+.plan h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutme {
+        justify-content: center;
+    }
+
+    .introduction {
+        padding: 10px 30px;
+    }
+    .introduction h1,
+    .introduction h3 {
+        text-align: center;
+        padding: 10px;
+    }
+    .skillsection {
+        background-size: 90% 90%;
+    }
+
+    .skillmain {
+        padding: 0 10%;
+    }
+    .plan {
+        padding: 3em 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homename a {
+        margin: 0;
+    }
+    .top {
+        padding: 6em 0;
+    }
+    .name {
+        margin: 15px;
+    }
+
+    .top_left img {
+        width: 250px;
+    }
+
+    .skillmain {
+        text-align: center;
+        justify-content: center;
+    }
+    .skillsection {
+        background-size: 150% 70%;
+    }
+    .skillicon img {
+        width: 250px;
+    }
+    .des {
+        text-align: center;
+        margin: 5px 0;
+    }
+    .plan {
+        padding: 3em 0;
+        justify-content: center;
+    }
+    .planleft,
+    .planright {
+        width: 75%;
+    }
+}
+/*----------------------illust------------------------*/
+.illust {
+    width: 100%;
+    padding: 7em 4em !important;
+    justify-content: center;
+    background-color: #fafaed;
+}
+
+.illust img {
+    height: 400px;
+    padding: 10px;
+}
+.smallpic {
+    height: 300px !important;
+}
+.row {
+    margin: 0 !important;
+}
+@media screen and (max-width: 768px) {
+    .illust {
+        padding: 7em 2em !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .illust {
+        padding: 7em 1em !important;
+    }
+
+    .illust img {
+        width: 100%;
+        height: fit-content !important;
+    }
+}
+/*----------------------contact------------------------*/
+.contactpage {
+    background-image: url('../icon_image/bg2.png');
+    background-size: cover;
+    width: 100%;
+    padding: 5em 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contact {
+    align-items: center;
+    margin: 5em 0;
+    padding: 3em;
+    background-color: #fafaed;
+    border-radius: 25px;
+    border: 5px solid #1820ef;
+}
+
+.contact h5 {
+    font-family: 'Taipei Sans TC Beta';
+    font-weight: bold;
+}
+.content {
+    margin-top: 10%;
+}
+.phone,
+.email,
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.phone img,
+.email img,
+.address img {
+    width: 35px;
+    margin: 15px;
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        margin: 1em;
+        margin-top: 12em;
+        padding: 3em;
+        background-color: rgb(241, 197, 197);
+        text-align: left;
+    }
+}
+@media screen and (max-width: 480px) {
+    .contact {
+        margin: 1em;
+        margin-top: 10em;
+        padding: 1em;
+        background-color: rgb(241, 197, 197);
+        text-align: left;
+    }
+}
+/*-------------------works--------------------------*/
+.works {
+    padding-top: 6em !important;
+    background-color: #fafaed;
+}
+.works h1 {
+    margin: 1.2em 0;
+}
+.title_en {
+    padding: 15px 50px;
+    color: #1820ef;
+}
+
+.web a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.work_img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid rgb(74, 75, 77);
+}
+.work_img:hover {
+    transform: translateY(-10%);
+    transition-duration: 0.5s;
+}
+.work_name {
+    padding: 5px;
+    margin-top: 15px;
+    font-family: 'Taipei Sans TC Beta';
+    font-weight: bold;
+    color: rgb(74, 75, 77);
+}
+.work_container {
+    border-bottom: 4px solid #fcdded;
+    padding-bottom: 3em;
+}
+@media screen and (max-width: 768px) {
+    .works h4 {
+        font-size: 16px;
+    }
+}

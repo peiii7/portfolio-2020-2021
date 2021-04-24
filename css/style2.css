@@ -1,0 +1,246 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: fantasy;
+}
+div,
+span {
+    font-family: 'Taipei Sans TC Beta';
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #fafaed !important;
+    height: 5em;
+    width: 100%;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.homename a {
+    font-weight: bold;
+    border: 3px solid #1820ef;
+    border-radius: 50%;
+    padding: 0 15px;
+    margin-left: 2em;
+    font-size: 36px;
+    text-decoration: none;
+    color: #1820ef !important;
+    font-family: 'Cooper Black';
+}
+.homename a:hover {
+    color: #000000 !important;
+    border: 3px solid #000000 !important;
+    transition-duration: 1s;
+}
+
+.nav-link {
+    background-color: #fafaed !important;
+    color: #1820ef !important;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px !important;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+.nav-link:hover {
+    color: #000000 !important;
+}
+.menu {
+    width: 25px;
+    height: 25px;
+}
+
+.oneway_content img {
+    width: 100%;
+}
+/*-----------------------------game--------------------------------------------------*/
+.dove {
+    padding: 2em;
+    background-color: #007c42;
+}
+.gif {
+    width: 100%;
+    padding-top: 5em;
+}
+.content_item p {
+    color: #fafaed;
+}
+.birdgame video {
+    width: 100%;
+}
+.birdgame .content {
+    margin: 15px;
+    padding: 15px;
+}
+.dove .card {
+    border: 3px solid #000000;
+    border-radius: 25px;
+    background-color: rgb(255, 254, 195);
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.dove .card:hover {
+    transform: scale(1.1);
+}
+.card img {
+    width: 100%;
+}
+.birdgame h3 {
+    color: #fafaed;
+}
+.dove h2 {
+    background-color: #fafaed;
+    border-radius: 10px;
+}
+hr {
+    border: 1px solid #fafaed;
+}
+.member {
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.member_item {
+    background-color: #fafaed;
+    border-radius: 15px;
+    padding: 10px 0;
+    margin: 15px 0;
+    border: 3px solid #000;
+}
+.member h3 {
+    color: #fafaed;
+}
+/*----------------------------------------------------LV-------------------------------------------*/
+.LV {
+    padding-top: 5em;
+}
+.lv_top {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.LV img {
+    top: -6em;
+    width: 100%;
+}
+.lv_top h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fafaed;
+    border: 2px solid #fafaed79;
+    padding: 20px !important;
+}
+.lv_story {
+    padding: 5% 10%;
+    background-color: #52352f;
+    color: #fafaed;
+}
+.lv_story p {
+    padding: 20px;
+}
+.lv_chara img {
+    width: 75%;
+    align-self: center;
+}
+.lv_chara .card {
+    border: 0;
+    background: rgba(255, 255, 255, 0.3);
+}
+.lv_chara .card:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+.lv_chara {
+    padding: 30px 0;
+    background-image: url('../icon_image/Chara_BG.png');
+}
+.lv_name {
+    color: #52352f;
+    font-weight: bold;
+}
+.lv_object .card {
+    border: 0;
+}
+.lv_object p {
+    font-weight: bold;
+}
+.LV_demo video {
+    width: 100%;
+}
+.LV_demo {
+    background-color: #52352f;
+}
+
+.lvmember {
+    background-color: #d7aa6e;
+    padding: 10px 0;
+    color: #52352f;
+}
+.lvmember_item {
+    border: 3px solid #52352f;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.lvmember h5 {
+    font-weight: bold;
+    color: #52352f;
+}
+@media screen and (max-width: 768px) {
+    .lv_top {
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 480px) {
+    .lv_top {
+        height: fit-content;
+    }
+}
+/*-------------------------------party------------------------------*/
+.party {
+    padding-top: 5em;
+    padding-bottom: 1em;
+    background-color: rgb(37, 32, 44);
+}
+
+.party h1,
+.party h3 {
+    font-family: 'Taipei Sans TC Beta';
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
+.party p {
+    color: #c99fff;
+    font-size: 18px;
+}
+
+.party_poster {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.party_poster img {
+    width: 100%;
+    margin: 15px 0;
+}
+.poster_circle img {
+    border-radius: 50%;
+}
+.poster_right {
+    margin: 0 30px;
+}
+.party_text {
+    margin: 30px 0;
+    padding: 20px;
+}
