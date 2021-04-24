@@ -306,7 +306,7 @@ body {
 
 .phone a,
 .email a,{
-    color:#fff;
+    color:#fff !important;
 }
 @media screen and (max-width: 768px) {
     .contact {
