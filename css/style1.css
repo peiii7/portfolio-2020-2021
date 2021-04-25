@@ -133,6 +133,9 @@ body {
     width: 300px;
     margin: 1.5em;
 }
+.skillsection .row{
+    margin: 0 15px;
+}
 .des {
     text-align: left;
 }
