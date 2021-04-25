@@ -4,7 +4,8 @@ h3,
 h4,
 h5,
 h6 {
-     font-family: Impact,fantasy,'Taipei Sans TC Beta';
+     font-family: 'Coda Caption', sans-serif,'Taipei Sans TC Beta';
+     /*font-family: Impact,fantasy,'Taipei Sans TC Beta';*/
 }
 div,
 span {
@@ -35,7 +36,7 @@ body {
     font-size: 36px;
     text-decoration: none;
     color: #1820ef !important;
-    font-family: 'Cooper Black';
+    font-family: 'Cooper Black' !important;
 }
 .homename a:hover {
     color: #000000 !important;
@@ -50,7 +51,8 @@ body {
     text-align: center;
     font-size: 20px !important;
     border-radius: 5px;
-    font-family: fantasy;
+    font-family: 'Coda Caption', sans-serif;
+    /*font-family: fantasy;*/
 }
 .nav-link:hover {
     color: #000000 !important;
