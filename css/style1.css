@@ -55,7 +55,8 @@ body {
     text-align: center;
     font-size: 20px !important;
     border-radius: 5px;
-    font-family: fantasy;
+    font-family: 'Coda Caption', sans-serif,'Taipei Sans TC Beta';
+    /*font-family: fantasy;*/
 }
 .nav-link:hover {
     color: #000000 !important;
