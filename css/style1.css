@@ -8,8 +8,8 @@ h3,
 h4,
 h5,
 h6 {
-    
-    font-family: font-family: Impact,fantasy,'Taipei Sans TC Beta';
+    font-family: 'Coda Caption', sans-serif,'Taipei Sans TC Beta';
+    /*font-family: font-family: Impact,fantasy,'Taipei Sans TC Beta';*/
 }
 div,
 span {
@@ -40,7 +40,7 @@ body {
     font-size: 36px;
     text-decoration: none;
     color: #1820ef !important;
-    font-family: 'Cooper Black';
+    font-family: 'Cooper Black' !important;
 }
 .homename a:hover {
     color: #000000 !important;
